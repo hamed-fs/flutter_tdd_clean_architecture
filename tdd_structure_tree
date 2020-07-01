@@ -1,0 +1,54 @@
+.
+├── assets
+│   ├── fonts
+│   ├── icons
+│   └── ...
+├── lib
+│   ├── core
+│   │   ├── exceptions
+│   │   │   └── ...
+│   │   ├── helpers
+│   │   │   └── ...
+│   │   ├── services
+│   │   │   └── ...
+│   │   └── ...
+│   ├── modules
+│   │   ├── module 01
+│   │   │   ├── data
+│   │   │   │   ├── data_sources
+│   │   │   │   ├── models
+│   │   │   │   └── repositories
+│   │   │   ├── domain
+│   │   │   │   ├── entities
+│   │   │   │   ├── repositories
+│   │   │   │   └── usecases
+│   │   │   ├── exceptions
+│   │   │   │   └── ...
+│   │   │   └── presentation
+│   │   │       ├── blocs
+│   │   │       ├── pages
+│   │   │       └── widgets
+│   │   └── module ...
+│   └── themes
+│       └── ...
+├── test
+│   ├── core
+│   │   ├── helpers
+│   │   ├── services
+│   │   └── ...
+│   └── modules
+│       ├── module 01
+│       │   ├── data
+│       │   │   ├── data_sources
+│       │   │   ├── models
+│       │   │   └── repositories
+│       │   ├── domain
+│       │   │   ├── entities
+│       │   │   ├── repositories
+│       │   │   └── usecases
+│       │   └── presentation
+│       │       ├── blocs
+│       │       ├── pages
+│       │       └── widgets
+│       └── module ...
+└── test_driver
